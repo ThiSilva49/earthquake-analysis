@@ -8,9 +8,9 @@ Este projeto realiza uma análise de dados de terremotos utilizando Python. Ele 
 
 ```
 earthquake-analysis/
-│
-├── data/                          # Arquivo CSV com os dados de terremotos
-│   └── terremoto.csv
+│                   
+│── terremoto.csv              # Arquivo CSV com os dados de terremotos
+│   
 ├── notebooks/                     # Jupyter Notebook com o código e as análises
 │   └── earthquake_analysis.ipynb
 ├── scripts/                       # Script Python com o código de análise
@@ -21,7 +21,6 @@ earthquake-analysis/
 │   └── histogram.png              # Histograma de Magnitudes
 │   └── box_plot.png               # Box Plot de Magnitudes por Região
 ├── README.md                      # Este arquivo de documentação
-└── requirements.txt               # Arquivo de dependências para o projeto
 ```
 ## Como Usar
 
